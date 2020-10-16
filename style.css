@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to top, #b4680a, #a75106, #0d0d0d);
+}
+
+
+/*.bord {
+    align-items: center;
+    height: 200px;
+    width: 100px;
+    background: bisque;
+}*/
+
+h1 {
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #ffe100;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.styling {
+    font-weight: 800;
+    color: #ff8000;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input {
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #ff910a;
+    background-color: black;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #ff8000;
+    color: black;
+    cursor: pointer;
+    margin: 0.25px;
+}
+
+.addButton:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #ffe100;
+}
+
+.item_input {
+    background: none;
+    outline: none;
+    color: black;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editButton {
+    font-size: 1rem;
+    margin: 0 0.06rem;
+    font-family: 'Alatsi', sans-serif;
+    background: none;
+    outline: none;
+    color: #91ff00;
+    border: none;
+}
+
+.removeButton {
+    font-size: 1rem;
+    margin: 0 0.1rem;
+    font-family: 'Alatsi', sans-serif;
+    background: none;
+    outline: none;
+    color: #ff5e00;
+    border: none;
+}
+
+.divider {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    height: 26px;
+    width: 1.3px;
+    color: gray;
+    background-color: gray;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
