@@ -103,6 +103,7 @@ h1 {
     outline: none;
     color: #91ff00;
     border: none;
+    cursor: pointer;
 }
 
 .removeButton {
@@ -113,6 +114,7 @@ h1 {
     outline: none;
     color: #ff5e00;
     border: none;
+    cursor: pointer;
 }
 
 .divider {
